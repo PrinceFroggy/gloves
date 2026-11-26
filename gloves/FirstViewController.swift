@@ -19,7 +19,29 @@ class FirstViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func moveMapSwitch(_ sender: UISwitch)
+    {
+        if (sender.isOn == true)
+        {
+            print("moveMapOn")
+            
+            SharingManager.sharedInstance.moveView = false
+            
+            SharingManager.sharedInstance.scrollingGestures = false
+            
+            SharingManager.sharedInstance.zoomGestures = false
+        }
+        else
+        {
+            print("moveMapOff")
+            
+            SharingManager.sharedInstance.moveView = true
+            
+            SharingManager.sharedInstance.scrollingGestures = true
+            
+            SharingManager.sharedInstance.zoomGestures = true
+        }
+    }
 }
 

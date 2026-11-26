@@ -1,0 +1,6 @@
+framework module Pods_gloves {
+  umbrella header "Pods-gloves-umbrella.h"
+
+  export *
+  module * { export * }
+}

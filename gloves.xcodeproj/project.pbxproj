@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21375B373C251F8B61C14835 /* Pods_gloves.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1B11B6194A6F5980C88295 /* Pods_gloves.framework */; };
+		492E4A851F31049A006E6851 /* gloves.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 492E4A831F31049A006E6851 /* gloves.xcdatamodeld */; };
+		49795C011ECA28C200D7BB85 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49795C001ECA28C200D7BB85 /* ThirdViewController.swift */; };
 		4998DA261EC918AE00A121F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4998DA251EC918AE00A121F0 /* AppDelegate.swift */; };
 		4998DA281EC918AE00A121F0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4998DA271EC918AE00A121F0 /* FirstViewController.swift */; };
 		4998DA2A1EC918AE00A121F0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4998DA291EC918AE00A121F0 /* SecondViewController.swift */; };
 		4998DA2D1EC918AF00A121F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4998DA2B1EC918AF00A121F0 /* Main.storyboard */; };
 		4998DA2F1EC918AF00A121F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4998DA2E1EC918AF00A121F0 /* Assets.xcassets */; };
 		4998DA321EC918AF00A121F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4998DA301EC918AF00A121F0 /* LaunchScreen.storyboard */; };
+		4998DA3A1EC91BD200A121F0 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4998DA391EC91BD200A121F0 /* BaseTabBarController.swift */; };
+		49C4E3AA1ED5E1C3005F5909 /* BaseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C4E3A91ED5E1C3005F5909 /* BaseTabBar.swift */; };
+		49C4E3AC1ED73233005F5909 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C4E3AB1ED73232005F5909 /* UIViewExtension.swift */; };
+		49C9194A1F0BFE900039EF4F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49C919491F0BFE900039EF4F /* GoogleService-Info.plist */; };
+		49C9194C1F10286B0039EF4F /* SharingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9194B1F10286A0039EF4F /* SharingManager.swift */; };
+		49EC17841F46929A00131C34 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC17831F46929A00131C34 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A1B11B6194A6F5980C88295 /* Pods_gloves.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gloves.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3973926803C8D3E627845CC7 /* Pods-gloves.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gloves.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gloves/Pods-gloves.debug.xcconfig"; sourceTree = "<group>"; };
+		492E4A841F31049A006E6851 /* gloves.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gloves.xcdatamodel; sourceTree = "<group>"; };
+		49795C001ECA28C200D7BB85 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		4998DA221EC918AE00A121F0 /* gloves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gloves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4998DA251EC918AE00A121F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4998DA271EC918AE00A121F0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +37,14 @@
 		4998DA2E1EC918AF00A121F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4998DA311EC918AF00A121F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4998DA331EC918AF00A121F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4998DA391EC91BD200A121F0 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		49B6863A2141138500403293 /* gloves-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gloves-Bridging-Header.h"; sourceTree = "<group>"; };
+		49C4E3A91ED5E1C3005F5909 /* BaseTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBar.swift; sourceTree = "<group>"; };
+		49C4E3AB1ED73232005F5909 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		49C919491F0BFE900039EF4F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		49C9194B1F10286A0039EF4F /* SharingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingManager.swift; sourceTree = "<group>"; };
+		49EC17831F46929A00131C34 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F55B9128C85DF862C731B3CF /* Pods-gloves.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gloves.release.xcconfig"; path = "Pods/Target Support Files/Pods-gloves/Pods-gloves.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +52,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21375B373C251F8B61C14835 /* Pods_gloves.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2039D0BD43595C98F948933B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A1B11B6194A6F5980C88295 /* Pods_gloves.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4998DA191EC918AE00A121F0 = {
 			isa = PBXGroup;
 			children = (
 				4998DA241EC918AE00A121F0 /* gloves */,
 				4998DA231EC918AE00A121F0 /* Products */,
+				567F14AAF2CB72D38FBB96E5 /* Pods */,
+				2039D0BD43595C98F948933B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,33 @@
 		4998DA241EC918AE00A121F0 /* gloves */ = {
 			isa = PBXGroup;
 			children = (
+				49C919491F0BFE900039EF4F /* GoogleService-Info.plist */,
 				4998DA251EC918AE00A121F0 /* AppDelegate.swift */,
 				4998DA271EC918AE00A121F0 /* FirstViewController.swift */,
 				4998DA291EC918AE00A121F0 /* SecondViewController.swift */,
+				49795C001ECA28C200D7BB85 /* ThirdViewController.swift */,
 				4998DA2B1EC918AF00A121F0 /* Main.storyboard */,
+				49EC17831F46929A00131C34 /* RegisterViewController.swift */,
 				4998DA2E1EC918AF00A121F0 /* Assets.xcassets */,
 				4998DA301EC918AF00A121F0 /* LaunchScreen.storyboard */,
 				4998DA331EC918AF00A121F0 /* Info.plist */,
+				4998DA391EC91BD200A121F0 /* BaseTabBarController.swift */,
+				49C4E3A91ED5E1C3005F5909 /* BaseTabBar.swift */,
+				49C4E3AB1ED73232005F5909 /* UIViewExtension.swift */,
+				49C9194B1F10286A0039EF4F /* SharingManager.swift */,
+				492E4A831F31049A006E6851 /* gloves.xcdatamodeld */,
+				49B6863A2141138500403293 /* gloves-Bridging-Header.h */,
 			);
 			path = gloves;
+			sourceTree = "<group>";
+		};
+		567F14AAF2CB72D38FBB96E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3973926803C8D3E627845CC7 /* Pods-gloves.debug.xcconfig */,
+				F55B9128C85DF862C731B3CF /* Pods-gloves.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4998DA361EC918AF00A121F0 /* Build configuration list for PBXNativeTarget "gloves" */;
 			buildPhases = (
+				3334635EC36B777885A68922 /* [CP] Check Pods Manifest.lock */,
 				4998DA1E1EC918AE00A121F0 /* Sources */,
 				4998DA1F1EC918AE00A121F0 /* Frameworks */,
 				4998DA201EC918AE00A121F0 /* Resources */,
+				2A082502FB9EFDF6B2C392EF /* [CP] Embed Pods Frameworks */,
+				9FCDE089DCF5B7FC15999A6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +152,8 @@
 				TargetAttributes = {
 					4998DA211EC918AE00A121F0 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B2GKW4DTXJ;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4998DA321EC918AF00A121F0 /* LaunchScreen.storyboard in Resources */,
+				49C9194A1F0BFE900039EF4F /* GoogleService-Info.plist in Resources */,
 				4998DA2F1EC918AF00A121F0 /* Assets.xcassets in Resources */,
 				4998DA2D1EC918AF00A121F0 /* Main.storyboard in Resources */,
 			);
@@ -134,13 +190,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A082502FB9EFDF6B2C392EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gloves/Pods-gloves-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3334635EC36B777885A68922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FCDE089DCF5B7FC15999A6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gloves/Pods-gloves-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4998DA1E1EC918AE00A121F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49795C011ECA28C200D7BB85 /* ThirdViewController.swift in Sources */,
+				49EC17841F46929A00131C34 /* RegisterViewController.swift in Sources */,
+				4998DA3A1EC91BD200A121F0 /* BaseTabBarController.swift in Sources */,
 				4998DA2A1EC918AE00A121F0 /* SecondViewController.swift in Sources */,
 				4998DA261EC918AE00A121F0 /* AppDelegate.swift in Sources */,
+				49C4E3AC1ED73233005F5909 /* UIViewExtension.swift in Sources */,
+				49C4E3AA1ED5E1C3005F5909 /* BaseTabBar.swift in Sources */,
+				492E4A851F31049A006E6851 /* gloves.xcdatamodeld in Sources */,
+				49C9194C1F10286B0039EF4F /* SharingManager.swift in Sources */,
 				4998DA281EC918AE00A121F0 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,24 +373,35 @@
 		};
 		4998DA371EC918AF00A121F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3973926803C8D3E627845CC7 /* Pods-gloves.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = B2GKW4DTXJ;
 				INFOPLIST_FILE = gloves/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = feels024.gloves;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feels024666.gloves;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "gloves/gloves-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		4998DA381EC918AF00A121F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F55B9128C85DF862C731B3CF /* Pods-gloves.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = B2GKW4DTXJ;
 				INFOPLIST_FILE = gloves/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = feels024.gloves;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feels024666.gloves;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "gloves/gloves-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -303,8 +425,22 @@
 				4998DA381EC918AF00A121F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		492E4A831F31049A006E6851 /* gloves.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				492E4A841F31049A006E6851 /* gloves.xcdatamodel */,
+			);
+			currentVersion = 492E4A841F31049A006E6851 /* gloves.xcdatamodel */;
+			path = gloves.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4998DA1A1EC918AE00A121F0 /* Project object */;
 }
